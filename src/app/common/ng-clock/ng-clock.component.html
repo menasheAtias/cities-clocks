@@ -1,0 +1,25 @@
+<div class="clock">
+    <div>
+      <div id="date{{clockId}}" class="info date"></div>
+      <div id="day{{clockId}}" class="info day"></div>
+    </div>
+    <div class="dot"></div>
+    <div>
+      <div id="hour-hand{{clockId}}" class="hour-hand"></div>
+      <div id="minute-hand{{clockId}}" class="minute-hand"></div>
+      <div id="second-hand{{clockId}}" class="second-hand"></div>
+    </div>
+    <div>
+      <span class="h3">3</span>
+      <span class="h6">6</span>
+      <span class="h9">9</span>
+      <span class="h12">12</span>
+    </div>
+    <ng-container *ngFor="let i of linesArray()">
+      <div  class="diallines diallines{{clockId}}"></div>
+    </ng-container>
+  </div>
+  <div id="digital-clock-container{{clockId}}" class="digital-clock-container">
+  </div>
+
+

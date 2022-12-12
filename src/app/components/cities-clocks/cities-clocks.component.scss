@@ -1,0 +1,23 @@
+.clocks {
+  text-align: center;
+  &__div{
+    display: inline-block;
+    margin: 3%;
+  }
+  &__name{
+    font-weight: 800;
+    font-size: 36px;
+  }
+}
+
+
+.filter-cities{
+ text-align: center;
+}
+.title{
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-weight: 800;
+}

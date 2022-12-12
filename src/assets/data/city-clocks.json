@@ -1,0 +1,20 @@
+{
+  "CityClocksData": [
+      {
+        "cityName": "Jerusalem",
+        "cityOffset": 0
+      },
+      {
+        "cityName": "London",
+        "cityOffset": -2
+      },
+      {
+        "cityName": "New York",
+        "cityOffset": -7
+      },
+      {
+        "cityName": "Tokyo",
+        "cityOffset": 7
+      }
+    ]
+}

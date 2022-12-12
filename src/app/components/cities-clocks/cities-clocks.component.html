@@ -1,0 +1,10 @@
+<h1 class="title">Cities Clocks</h1>
+<div class="filter-cities">
+  <chips-autocomplete (selectFilter)="filterCities($event)" [inputPlaceholder]="'Select cities'" [allItems]="cities"></chips-autocomplete>
+</div>
+<div class="clocks">
+  <div class="clocks__div"  *ngFor="let item of filterCitiesClocks; let i = index" >
+    <div class="clocks__name">{{item.cityName}}</div>
+    <app-ng-clock [clockId]=i [offset]="item.cityOffset"></app-ng-clock>
+  </div>
+  </div>
