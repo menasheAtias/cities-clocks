@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import _ from 'lodash';
 import { CityClocksData } from 'src/app/models/cities-clocks-data';
 import Data from '../../../assets/data/city-clocks.json';
-import * as _ from 'lodash';
 @Component({
   selector: 'app-cities-clocks',
   templateUrl: './cities-clocks.component.html',
